@@ -1,0 +1,36 @@
+body {
+  overflow: unset;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+#about-us {
+  display: grid;
+  grid-template-columns: 50% auto;
+  height: 100vh;
+  align-items: center;
+  gap: 70px;
+}
+.about-img {
+  background-image: url("https://www.elmueble.com/medio/2018/02/15/dsc9100_54145a8f.jpg");
+  height: 85%;
+  width: 100%;
+}
+.about-text {
+  display: grid;
+  flex-wrap: wrap;
+  flex-direction: column;
+  grid-template-rows: max-content auto auto;
+}
+.about-tabs {
+  padding: 20px 0;
+}
+.about-text p {
+  padding-right: 50px;
+}
+
+#one, #two, #three {
+  display: none;
+}
